@@ -1,0 +1,165 @@
+body {
+    background-color: #e1dfc2;
+    margin: 0;
+    padding: 0;
+}
+
+.healthy {
+    padding: 50px 40px;
+    text-align: center;
+}
+
+.healthy .t {
+    color: #084b08;
+    font-family: monospace;
+    font-size: 28pt;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    flex-wrap: wrap;
+}
+
+.healthy-card {
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 30px 25px;
+    width: 280px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    text-align: center;
+}
+
+.healthy-card img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+
+.healthy-card h4 {
+    color: #084b08;
+    font-family: 'Georgia', serif;
+    font-size: 20pt;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.healthy-card p {
+    color: #666;
+    font-family: 'Arial', sans-serif;
+    font-size: 18pt;
+    line-height: 1.6;
+}
+
+.boxes {
+    background-color: #bdc0131a;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 70px;
+    padding: 30px;
+    margin: 50px auto;
+}
+
+.boxes h1 {
+    grid-column: 1 / -1;
+    text-align: center;
+    color: #084b08;
+    margin-bottom: 5px;
+    font-family: monospace;
+    font-size: 35pt;
+    text-shadow: 0px 2px 2px #333;
+}
+
+.caption {
+    grid-column: 1 / -1;
+    color: rgb(108, 118, 108);
+    font-family: cursive;
+    font-size: 20pt;
+    margin-bottom: 5px;
+}
+
+.box1,
+.box2,
+.box3,
+.box4,
+.box5,
+.box6,
+.box7,
+.box8,
+.box9 {
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 20px 20px #03662f1a;
+}
+
+.box1 p,
+.box2 p,
+.box3 p,
+.box4 p,
+.box5 p,
+.box6 p,
+.box7 p,
+.box8 p,
+.box9 p {
+    color: #333;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+.box1 img,
+.box2 img,
+.box3 img,
+.box4 img,
+.box5 img,
+.box6 img,
+.box7 img,
+.box8 img,
+.box9 img {
+    border-radius: 8px;
+}
+
+.footer {
+    background-color: #242424;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer1,
+.footer2,
+.footer3 {
+    flex: 1;
+    min-width: 200px;
+    padding: 20px;
+    text-align: center;
+
+}
+
+.footer1 h4,
+.footer2 h4,
+.footer3 h4 {
+    color: #4caf50;
+    margin-bottom: 15px;
+    font-size: 20pt;
+}
+
+.footer1 p,
+.footer2 p,
+.footer3 p,
+.footer4 p {
+    font-size: 18pt;
+}
+
+.footer4 {
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid #444;
+    color: #888;
+}
